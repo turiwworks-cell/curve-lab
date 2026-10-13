@@ -4,7 +4,7 @@ Curve Lab's Curve panel in any page, with one script tag. The page reads the cur
 
 ```html
 <div id="curve"></div>
-<script src="https://cdn.jsdelivr.net/gh/turiwworks-cell/curve-lab@1/curve-lab.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/curve-lab-embed@1/curve-lab.js"></script>
 <script>
   const lab = CurveLab.mount("#curve", { height: 620 });
   lab.ease(t);        // eased value for t in 0..1, as the curve is now
